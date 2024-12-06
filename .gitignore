@@ -1,0 +1,51 @@
+__# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# FastAPI/Uvicorn logs
+*.log
+
+# Archivos de dependencia
+*.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de IDEs
+.idea/
+
+# Archivos de desarrollo locales
+*.env
+.env.*
+
+# Node.js (si usas Node para alguna integración)
+node_modules/
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# Archivos temporales
+*.tmp
+*.swp
